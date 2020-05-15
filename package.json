@@ -1,0 +1,21 @@
+{
+  "name": "covid-stats-api",
+  "version": "1.0.0",
+  "description": "An API to distribute COVID-19 stats.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Eddie Olivas",
+  "license": "ISC",
+  "dependencies": {
+    "api-key-auth": "^0.2.2",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.12",
+    "nodemon": "^2.0.3",
+    "validator": "^13.0.0"
+  }
+}
