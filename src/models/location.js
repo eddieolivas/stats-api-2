@@ -5,11 +5,6 @@ const locationSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    beds: {
-        type:  Number,
-        required: true,
-        default: 0
-    },
     pendingresidents: {
         type: Number,
         required: true,
@@ -36,6 +31,11 @@ const locationSchema = new mongoose.Schema({
         default: 0
     },
     positivestaff: {
+        type: Number,
+        required: true,
+        default: 0
+    },
+    admittedwithcovid: {
         type: Number,
         required: true,
         default: 0
