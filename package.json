@@ -1,5 +1,5 @@
 {
-  "name": "covid-stats-api",
+  "name": "gchc-covid-stats-api",
   "version": "1.0.0",
   "description": "An API to distribute COVID-19 stats.",
   "main": "index.js",
