@@ -40,6 +40,10 @@ const locationSchema = new mongoose.Schema({
         required: true,
         default: 0
     },
+    open: {
+        type: String,
+        required: true
+    }
     dateUpdated: {
         type: String,
         required: true
