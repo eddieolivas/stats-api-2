@@ -55,8 +55,8 @@ router.get("/locations/:locationId", auth, async (req, res) => {
             <tbody>
               <tr>
                 <td>Residents</td>
-                <td>${$pendingresidents}'</td>
-                <td>${$negativeresidents}'</td>
+                <td>${$pendingresidents}</td>
+                <td>${$negativeresidents}</td>
                 <td>${$positiveresidents}</td>
                 <td>${$admittedwithcovid}</td>
               </tr>
